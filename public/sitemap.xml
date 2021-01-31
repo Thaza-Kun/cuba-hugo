@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://example.com/buku/ultra/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/install-theme/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/use-forestry-cms/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/organize-content/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/shortcodes/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/shortcodes-example/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/graphs-charts-tables/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/categories/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/buku/ultra/customize/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/search/</loc>
+  </url>
+  
+  <url>
+    <loc>https://example.com/tags/</loc>
+  </url>
+  
+</urlset>
