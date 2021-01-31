@@ -11,7 +11,7 @@ title = "Godek-Godek"
 
 {{< block "grid-2" >}}
 {{< column >}}
-# Compose your Docs with __Ease__.
+# Tulislah sini.
 
 Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
 
