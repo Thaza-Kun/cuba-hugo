@@ -1,5 +1,5 @@
 +++
-title = "Compose"
+title = "Godek-Godek"
 # define chart data here
 [data]
   fileLink = "content/projects.csv" # path to where csv is stored
