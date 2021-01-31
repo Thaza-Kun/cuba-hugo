@@ -1,0 +1,10 @@
+---
+title: "Malapetaka Ultralembayung"
+weight: 1
+---
+
+Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose's blocks and templates, $1 + 2$. Satu dua.
+
+$$1 + 5=3$$
+
+{{< button "./install-theme/" "Get started now" >}}
