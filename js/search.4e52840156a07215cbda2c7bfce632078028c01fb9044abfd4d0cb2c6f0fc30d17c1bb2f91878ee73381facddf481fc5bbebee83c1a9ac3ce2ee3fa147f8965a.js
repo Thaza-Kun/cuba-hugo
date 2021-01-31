@@ -60,14 +60,14 @@ const idx = [
     "body": `[]`.toLowerCase(),
   },
   {
-    "link": "https://thaza-kun.github.io/cuba-hugo/",
-    "title": "Compose",
-    "body": `[Compose your Docs with Ease. Compose is a lean theme for the Hugo, inspired by forestry.io. We do a Pull Request contributions workflow on GitHub. Also feel free to raise any issues or feature suggestions. Note that the theme is built with simplicity in mind. This way, if a suggestion complicates the usability of the theme, it may be declined. New users are always welcome! Read the DocsDownload Theme You can generate graphs, charts and tables from a csv, or a json dataset Chart.platform.disableCSSInjection = true; function getCanvas(id){ return document.getElementById(id) }; var dataTally = ["2","4","1","5"].map(value = parseInt(value)); var labels = ["dahl","dan","ryan","weru"]; var data = { datasets: [{ data: dataTally, backgroundColor: ["#627c62","#11819b","#ef7f1a","#4e1154"], label: "Projects" }], labels: labels }; var options = {}; var ctx = getCanvas('piedata'); var myPieChart = new Chart(ctx, { type: 'pie', data: data, options: options }); var ctx3 = getCanvas('bardata'); var barChart = new Chart(ctx3, { type: 'bar', data: data, options: { "scales": { "yAxes": [{ "ticks": { "beginAtZero": true } }] } } }); var ctx2 = getCanvas('doughnutdata'); var doughnutChart = new Chart(ctx2, { type: 'doughnut', data: data, options: options }); Learn more]`.toLowerCase(),
-  },
-  {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/customize/",
     "title": "Customize layouts & components",
     "body": `[Shortcodes modifiers These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components. Grid modifier space grid-2 2 columns grid-3 3 columns grid-4 4 columns Spacing modifier space mt-1 1.5rem top margin mt-2 3rem top margin mt-3 4.5rem top margin mt-4 6rem top margin use pt-1 ~ pt-4 for top padding modifier space mb-1 1.5rem bottom margin mb-2 3rem bottom margin mb-3 4.5rem bottom margin mb-4 6rem bottom margin use pb-1 ~ pb-4 for bottom padding How do I disable dark mode? Under params add enableDarkMode = false to your config.toml file. If your site is based on the exampleSite, the value is already included; you only need to uncomment it. The user will still have the option to activate dark mode, if they so wish through the UI]`.toLowerCase(),
+  },
+  {
+    "link": "https://thaza-kun.github.io/cuba-hugo/",
+    "title": "Godek-Godek",
+    "body": `[Tulislah sini. Compose is a lean theme for the Hugo, inspired by forestry.io. We do a Pull Request contributions workflow on GitHub. Also feel free to raise any issues or feature suggestions. Note that the theme is built with simplicity in mind. This way, if a suggestion complicates the usability of the theme, it may be declined. New users are always welcome! Read the DocsDownload Theme You can generate graphs, charts and tables from a csv, or a json dataset Chart.platform.disableCSSInjection = true; function getCanvas(id){ return document.getElementById(id) }; var dataTally = ["2","4","1","5"].map(value = parseInt(value)); var labels = ["dahl","dan","ryan","weru"]; var data = { datasets: [{ data: dataTally, backgroundColor: ["#627c62","#11819b","#ef7f1a","#4e1154"], label: "Projects" }], labels: labels }; var options = {}; var ctx = getCanvas('piedata'); var myPieChart = new Chart(ctx, { type: 'pie', data: data, options: options }); var ctx3 = getCanvas('bardata'); var barChart = new Chart(ctx3, { type: 'bar', data: data, options: { "scales": { "yAxes": [{ "ticks": { "beginAtZero": true } }] } } }); var ctx2 = getCanvas('doughnutdata'); var doughnutChart = new Chart(ctx2, { type: 'doughnut', data: data, options: options }); Learn more]`.toLowerCase(),
   },
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/search/",
