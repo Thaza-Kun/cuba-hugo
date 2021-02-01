@@ -12,7 +12,7 @@ const idx = [
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/",
     "title": "Malapetaka Ultralembayung",
-    "body": `[Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose's blocks and templates, $1 + 2$. Satu dua. $$1 + 5=3$$ Get started now]`.toLowerCase(),
+    "body": `[Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose's blocks and templates, \(\left(1_a + 2\right)\). Satu \(2+2=4\) dua. \[1 + 2\] \begin{equation} 1_b +^4 5=3 \end{equation} \begin{align} a + b &amp;= 3\\ 3 &amp;= c \end{align} Get started now]`.toLowerCase(),
   },
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/",
@@ -62,7 +62,7 @@ const idx = [
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/customize/",
     "title": "Customize layouts & components",
-    "body": `[Shortcodes modifiers These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components. Grid modifier space grid-2 2 columns grid-3 3 columns grid-4 4 columns Spacing modifier space mt-1 1.5rem top margin mt-2 3rem top margin mt-3 4.5rem top margin mt-4 6rem top margin use pt-1 ~ pt-4 for top padding modifier space mb-1 1.5rem bottom margin mb-2 3rem bottom margin mb-3 4.5rem bottom margin mb-4 6rem bottom margin use pb-1 ~ pb-4 for bottom padding How do I disable dark mode? Under params add enableDarkMode = false to your config.toml file. If your site is based on the exampleSite, the value is already included; you only need to uncomment it. The user will still have the option to activate dark mode, if they so wish through the UI]`.toLowerCase(),
+    "body": `[Shortcodes modifiers These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components. (Citation: Lessig,&#32; 2002) Lessig,&#32; L. &#32; (2002). &#32;. Grid modifier space grid-2 2 columns grid-3 3 columns grid-4 4 columns Spacing modifier space mt-1 1.5rem top margin mt-2 3rem top margin mt-3 4.5rem top margin mt-4 6rem top margin use pt-1 ~ pt-4 for top padding modifier space mb-1 1.5rem bottom margin mb-2 3rem bottom margin mb-3 4.5rem bottom margin mb-4 6rem bottom margin use pb-1 ~ pb-4 for bottom padding How do I disable dark mode? Under params add enableDarkMode = false to your config.toml file. If your site is based on the exampleSite, the value is already included; you only need to uncomment it. The user will still have the option to activate dark mode, if they so wish through the UI Lessig (2002) Lessig,&#32; L. &#32; (2002). &#32;.]`.toLowerCase(),
   },
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/",
