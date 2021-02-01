@@ -2,11 +2,13 @@
 title = "Customize layouts & components"
 description = "basic configuration"
 # weight = 10
+
+bibFile = "./data/bib/bibliography.json"
 +++
 
 ### Shortcodes modifiers
 
-These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components.
+These modifiers are classes you can use with shortcodes to customize the look and feel of your layouts and components. {{< cite "Lessig 2002" >}}
 
 #### Grid
 |  modifier |  space    |
@@ -39,3 +41,5 @@ These modifiers are classes you can use with shortcodes to customize the look an
 Under `params` add `enableDarkMode = false` to your `config.toml` file. If your site is based on the exampleSite, the value is already included; you only need to uncomment it.
 
 > The user will still have the option to activate dark mode, if they so wish through the UI
+
+{{< bibliography cited >}}
