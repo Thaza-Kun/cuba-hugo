@@ -1,3 +1,6 @@
 [submodule "compose"]
 	path = compose
 	url = https://github.com/onweru/compose.git
+
+[submodule "public"]
+	path = public
