@@ -51,3 +51,5 @@ theme = ["compose","hugo-cite"]
   [params.logo]
     lightMode = "images/compose.svg"
     darkMode = "images/compose-light.svg"
+
+  css = ["css/custom.css"]
