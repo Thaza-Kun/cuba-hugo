@@ -10,9 +10,9 @@ var e,t;e=this,t=function(){"use strict";function e(t){return(e="function"==type
 ;
 const idx = [
   {
-    "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/",
-    "title": "Malapetaka Ultralembayung",
-    "body": `[Welcome to the Compose theme user guide! This guide shows you how to get started creating technical documentation sites using Compose, including site customization and how to use Compose's blocks and templates, \(\left(1_a + 2\right)\). Satu \(2+2=4\) dua. \[1 + 2\] \begin{equation} 1_b +^4 5=3 \end{equation} \begin{align} a + b &amp;= 3\\ 3 &amp;= c \end{align} Get started now]`.toLowerCase(),
+    "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/sinaran-jasad-hitam/",
+    "title": "Sinaran Jasad Hitam",
+    "body": `[Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya dengan sempurna tanpa pantulan. Jasad ini akan memancarkan juga kesemua panjang gelombang apabila berada dalam keseimbangan haba. Kata kuncinya di sini ialah ia memancarkan kesemua panjang gelombang cahaya daripada sependek-pendek gamma sehinggalah sepanjang-panjang radio. Bintang-bintang di langit memiliki ciri ini. Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Jumlah tenaga yang dikeluarkan oleh setiap bintang mematuhi Hukum Stefan--Boltzmann. Cubaan Cubaan]`.toLowerCase(),
   },
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/",
@@ -68,6 +68,11 @@ const idx = [
     "link": "https://thaza-kun.github.io/cuba-hugo/",
     "title": "Godek-Godek",
     "body": `[Tulislah sini. Compose is a lean theme for the Hugo, inspired by forestry.io. We do a Pull Request contributions workflow on GitHub. Also feel free to raise any issues or feature suggestions. Note that the theme is built with simplicity in mind. This way, if a suggestion complicates the usability of the theme, it may be declined. New users are always welcome! Read the DocsDownload Theme You can generate graphs, charts and tables from a csv, or a json dataset Chart.platform.disableCSSInjection = true; function getCanvas(id){ return document.getElementById(id) }; var dataTally = ["2","4","1","5"].map(value = parseInt(value)); var labels = ["dahl","dan","ryan","weru"]; var data = { datasets: [{ data: dataTally, backgroundColor: ["#627c62","#11819b","#ef7f1a","#4e1154"], label: "Projects" }], labels: labels }; var options = {}; var ctx = getCanvas('piedata'); var myPieChart = new Chart(ctx, { type: 'pie', data: data, options: options }); var ctx3 = getCanvas('bardata'); var barChart = new Chart(ctx3, { type: 'bar', data: data, options: { "scales": { "yAxes": [{ "ticks": { "beginAtZero": true } }] } } }); var ctx2 = getCanvas('doughnutdata'); var doughnutChart = new Chart(ctx2, { type: 'doughnut', data: data, options: options }); Learn more]`.toLowerCase(),
+  },
+  {
+    "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/",
+    "title": "Malapetaka Ultralembayung",
+    "body": `[Catatan-catatan sejarah sains menulis bahawa kegiatan kajian dunia kuantum bermula dengan kajian terhadap sinaran yang dipancarkan oleh bintang-bintang. Agak hairan bagaimana butiran-butiran bintang yang bertaburan di langit malam yang hakikatnya sebesar ribuan gunung-ganang itu mampu memberi kita ilham tentang dunia kuantum yang lebih kecil daripada pasir. Cahayalah yang menghubungkan dunia sebesar-besar bintang dengan dunia sekecil-kecil zarah. Cahayalah juga yang membawa kita meneroka dua dunia baharu fizik yakni dunia kuantum dan dunia kenisbian seolah-olah cahaya ialah penyuluh harapan kepada fizikawan sekalian alam ketika jalan menjadi suram. \begin{equation} 1_b +^4 5=3 \end{equation} \begin{align} a + b &amp;= 3\\ 3 &amp;= c \end{align} Get started now]`.toLowerCase(),
   },
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/search/",
