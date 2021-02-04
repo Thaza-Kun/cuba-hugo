@@ -9,4 +9,9 @@ Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Juml
 
 {{< alert text="Cubaan">}}
 
+{{< law "Hukum Stefan-Boltzmann" >}}
+Jumlah tenaga, \(E\), yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, \(T\),
+$$E = \sigma T^4$$
+{{< /law >}}
+
 {{< note text ="Cubaan">}}
