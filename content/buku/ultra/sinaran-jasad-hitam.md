@@ -9,7 +9,7 @@ Jasad hitam ialah suatu jasad yang akan menyerap semua panjang gelombang cahaya 
 
 Cahaya yang dipancarkan oleh bintang-bintang ini membawa bersamanya tenaga. Jumlah tenaga yang dikeluarkan oleh setiap bintang mematuhi Hukum Stefan&ndash;Boltzmann.
 
-{{< alert text="Cubaan">}}
+{{< alert "Cubaan">}}
 
 {{< law "Hukum Stefan-Boltzmann" >}}
 Jumlah tenaga, \\(E\\), yang dikeluarkan oleh bintang adalah berkadaran dengan suhunya, \\(T\\),
