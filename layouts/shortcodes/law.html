@@ -1,6 +1,6 @@
 {{- $title := .Get 0 -}}
 
-<div class="law">
+<div class="law" {{with $title }}id='{{ replace . " " "-" }}'{{end}}>
 {{ with $title }}
     <h1>{{ . }}</h1>
     {{ else }}

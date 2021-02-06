@@ -73,4 +73,3 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
   [params.author]
     name = "Weru"
     url = "https://neuralvibes.com/author/"
-

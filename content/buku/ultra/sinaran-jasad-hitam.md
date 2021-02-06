@@ -23,3 +23,5 @@ T &= \text{suhu}
 {{< /law >}}
 
 Tenaga yang diperihalkan dalam Hukum Stefan--Boltzmann ini adalah jumlah tenaga yang dibawa oleh semua frekuensi cahaya. Ada sebahagian cahaya yang  bersinar lebih kuat berbanding cahaya yang lain. Lazimnya, cahaya yang panjang (seperti radio) dan cahaya yang pendek (seperti sinaran gamma) tidak dipancarkan dengan banyak. Kebanyakan cahaya yang disinarkan oleh setiap satu jasad berada di antara dua nilai yang disebutkan itu.
+
+Tekan <a href="./#Hukum-Stefan-Boltzmann">sini</a> untuk dibawa ke Hukum Stefan-Boltzmann
