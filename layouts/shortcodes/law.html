@@ -1,21 +1,10 @@
 {{- $title := .Get 0 -}}
-{{- $symbols := .Get 1 -}}
-{{/*
-    Nak betulkan {{with $symbols }} sama ada nak sekalikan dengan hukum atau bezakan
-*/}}
+
 <div class="law">
 {{ with $title }}
     <h1>{{ . }}</h1>
     {{ else }}
     <h1>Hukum</h1>
 {{end}}
-  {{- .Inner -}}
-{{ with $symbols }}    
-    {{- $listing := split (replace $symbols ", " ",") ","}}
-    dengan maksud bahawa:</br>
-    {{ range $listing }}
-        {{- $each := split (replace . ":: " "::") "::" }}
-        {{.}}</br>
-    {{ end }}
-{{end}}
+  {{ .Inner | markdownify }}
 </div>

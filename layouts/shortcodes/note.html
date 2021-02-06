@@ -1,3 +1,4 @@
 <div class="note" role="note">
-  <div class="w-100">{{ with .Get "text" }}{{ . | safeHTML }}{{ end }}</div>
+  <h1>Catatan</h1>
+  <div class="w-100">{{ with .Get 0 }}{{ . | safeHTML }}{{ end }}</div>
 </div>

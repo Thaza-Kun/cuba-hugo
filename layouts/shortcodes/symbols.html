@@ -1,3 +1,8 @@
+{{/*Aku masih tengah cari cara nak mudahkan sintaks dalam {{ .Inner }}. Buat masa sekarang aku biarkan sintaksnya sama macam dalam LaTeX:
+    simbol &= \text{nama pemalar} \\
+    simbol2 &= \text{nama pemalar2}
+*/}}
+
 <div>
     <div>
       <span>Buat dari sini...</span>
@@ -5,7 +10,7 @@
     <div>
         dengan maksud bahawa
         \begin{align*}
-            {{replace (replace (replace (replace (replace .Inner "," "\\\\") "=" "&=") "?" "\\\\&=") "<" "\\text{") "/>" "}"}}
+            {{- .Inner -}}
         \end{align*}
         (Cari dalam {{"`shortcodes/symbols.html`"| markdownify}})
     </div>
