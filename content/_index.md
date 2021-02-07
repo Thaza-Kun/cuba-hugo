@@ -1,36 +1,30 @@
-+++
-title = "Godek-Godek"
-# define chart data here
-[data]
-  fileLink = "content/projects.csv" # path to where csv is stored
-  colors = ["#627c62", "#11819b", "#ef7f1a", "#4e1154"] # chart colors
-  columnTitles = ["Section", "Status", "Author"] # optional if no table will be displayed from dataset
-  baseChartOn = 3 # number of column the chart(s) and graph should be drawn from # can be overridden directly via shortcode parameter # it's therefore optional
-  title = "Projects"
-+++
+---
+title: "Godek-Godek"
+---
 
-{{< block "grid-2" >}}
+{{< grid "2">}}
 {{< column >}}
-# Tulislah sini.
+# Cuba Hugo
+Ini adalah laman cubaan yang digunakan untuk membina laman mirip buku teks. Target pertama kita ialah agar boleh mendukung kandungan `Catatan Mekanik Kuantum`.
 
-Compose is a lean theme for the `Hugo`, inspired by [forestry.io](https://forestry.io). 
+Templat mendasar laman ini ialah templat `compose`. Sedang diubah suai sedikit demi sedikit.
 
-We do a [Pull Request](https://github.com/onweru/compose/pulls) contributions workflow on **GitHub**. Also feel free to raise any issues or feature suggestions.
-
-Note that the theme is built with simplicity in mind. This way, if a suggestion complicates the usability of the theme, it may be declined. New users are always welcome!
-
-{{< button "docs/compose/" "Read the Docs" >}}{{< button "https://github.com/onweru/compose" "Download Theme" >}}
+Templat `hugo-cite` juga digunakan untuk memudahkan penulisan bibliografi.
 {{< /column >}}
 
 {{< column >}}
-![diy](/images/scribble.jpg)
+Perkara yang sudah dilaksanakan:
+
+{{< note "Sokongan MathJax (`partial/math-jax.html`) telah ditambah. Sokongan KaTeX disimpan dalam fail `partial/math-katex.html` sebagai sandaran." >}}
+
+{{< note "*Extension* `physics` telah ditambah dalam MathJax sebagai tetapan lalai supaya memudahkan penulisan pembezaan \\(\dv{f}{x}\\), trigonometri \\(\sin[2]\(\theta\)\\), dan beberapa makro lain seperti bra dan ket \\(\braket{\Psi}\\)." >}}
+
+{{< note "Blok untuk `hukum`, `catatan`, dan `amaran` telah ditambah.">}}
+
+Perkara yang belum dilaksanakan:
+
+{{< alert "Blok untuk `petua` dan `bukti` belum ditambah.">}}
+
+{{< alert "Nak bersihkan tema supaya hanya fail yang perlu sahaja digunakan." >}}
 {{< /column >}}
-{{< /block >}}
-{{< column "mt-2" >}}
-### You can generate graphs, charts and tables from a csv, ~~or a json~~ dataset 
-{{< /column >}}
-{{< grid "3" >}}
-  {{< chart "data" "pie, bar, doughnut" >}}
 {{< /grid >}}
-
-{{< button "docs/compose/graphs-charts-tables/" "Learn more" "mt-2" >}}

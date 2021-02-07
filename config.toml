@@ -49,7 +49,7 @@ theme = ["compose","hugo-cite"]
 
   # Site logo
   [params.logo]
-    lightMode = "images/compose.svg"
-    darkMode = "images/compose-light.svg"
+    lightMode = "images/logo.png"
+    darkMode = "images/logo.png"
 
   css = ["css/custom.css"]

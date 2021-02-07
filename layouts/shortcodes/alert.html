@@ -1,4 +1,3 @@
 <div class="alert" role="alert">
-  <h1>Perhatian</h1>
-  <div class="w-100">{{ with .Get 0 }}{{ . | safeHTML }}{{ end }}</div>
+  <div class="w-100">{{ with .Get 0 }}{{ . | markdownify }}{{ end }}</div>
 </div>
