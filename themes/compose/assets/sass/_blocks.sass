@@ -4,6 +4,22 @@
         position: relative
         top: -75px
         visibility: hidden
+
+details
+    summary
+        &::-webkit-details-marker
+            display: none
+        &::after
+            content: '◀'
+            float: right
+details[open]
+    summary
+        &::-webkit-details-marker
+            display: none
+        &::after
+            content: '▼'
+            float: right
+        
        
 .alert
     padding: 20px

@@ -1,7 +1,7 @@
 {{ if .Site.Params.enableSearch | default true }}
 <div class="search">
   <label for="find" class="search_label">
-    {{- partial "sprite" (dict "icon" "search") }}
+    {{- partial "sprite" (dict "icon" "fa-search") }}
   </label>
   <input type="search" class="search_field" placeholder='{{ T "search_field_placeholder" }}' id="find" autocomplete="off">
   {{- if ne .Params.searchPage true }}

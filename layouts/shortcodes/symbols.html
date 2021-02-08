@@ -1,14 +1,15 @@
 {{/*Aku masih tengah cari cara nak mudahkan sintaks dalam {{ .Inner }}. Buat masa sekarang aku biarkan sintaksnya sama macam dalam LaTeX:
     simbol &= \text{nama pemalar} \\
     simbol2 &= \text{nama pemalar2}
+
+    Mungkin boleh buat dalam bentuk jadual instead? Boleh kurangkan tenaga nak render banyak MathJax
 */}}
 
 <details>
-    <summary>dengan maksud bahawa...</summary>
+    <summary> dengan maksud bahawa...</summary>
     <div>
         \begin{align*}
             {{- .Inner -}}
         \end{align*}
-        (Cari dalam {{"`shortcodes/symbols.html`"| markdownify}})
     </div>
 </details>
