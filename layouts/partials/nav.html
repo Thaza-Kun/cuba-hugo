@@ -2,6 +2,7 @@
 {{- $sp := $s.Params }}
 <nav class="wrap nav menu">
 	<a href="{{ $s.BaseURL }}" class="nav_brand">
+	<!--Logo belah kiri-->
 		{{- $logos := $sp.logo }}
 		{{- $litPath := absURL ($logos.lightMode) }}
 		{{- $darkPath := absURL ($logos.darkMode) }}
@@ -15,10 +16,13 @@
 			{{ partial "sprite" (dict "icon" "harmburger") }}
 		</label>
 	</a>
+
 	<ul class="nav_body">
+		<!--Search box-->
 		<li class="nav-item">
 			{{- partial "search" . }}
 		</li>
+		<!--Navigation to different pages-->
 		{{- $p := . }}
 		{{- range $s.Menus.main }}
 		<li class="nav-item">
@@ -32,6 +36,7 @@
 			{{- end }}
 			<a class="nav-link{{if $active }} active{{end}}" href="{{ $url }}"><span{{if $active }} class="active"{{end}}>{{ .Name }}</span></a>
 		</li>
+		<!--Toggle Light/Dark Mode-->
 		{{- end }}
 		{{ $repo := $sp.source }}
 		<li class="nav-item nav_repo">

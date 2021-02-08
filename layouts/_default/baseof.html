@@ -1,10 +1,13 @@
 <!doctype html>
-<html lang="{{ .Site.Language.Lang }}"{{ with .Site.Params.enableDarkMode }} class="dark"{{ end }}>
+<html lang="ms" {{ with .Site.Params.enableDarkMode }} class="dark"{{ end }}>
 <head>
   {{- partial "head" . }}
 </head>
+
   {{- $s := .Site.Params }}
   {{- $p := .Params }}
+
+<!--untuk CODE BLOCKS-->
   {{- $maxCodeLines := default 100 $s.codeMaxLines }}
   {{- with $p.codeMaxLines }}
     {{- $maxCodeLines = . }}
@@ -17,17 +20,23 @@
       {{- $codeLineNumbers = false }}
     {{ end }}
   {{ end }}
+
+
 <body class="page-{{ .Kind }}"data-code="{{ $maxCodeLines }}" data-lines="{{ $codeLineNumbers }}" >
+<!--untuk navigation header-->
   <header class="nav_header">
     {{- partial "nav" . }}
   </header>
+
+<!--untuk content-->
   <div class="main wrap pt-4">
     {{- if eq .Section "buku" }}
-    {{- partial "document" . }}
+    {{- partial "chapter" . }}
     {{- else }}
     {{- block "main" . }}{{ end }}
     {{- end }}
   </div>
+
   {{- partial "footer" . }}
   {{- partial "sprites" . }}
   {{- partial "scripts" . }}

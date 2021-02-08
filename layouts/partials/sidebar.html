@@ -1,5 +1,7 @@
+<!--Nanti aku cuba fahamkan-->
+
 <aside class="aside menu">
-  <div>
+  <div><!--cuba buat supaya {{ T "docs_menu"}} menjadi tajuk buku-->
     <label class="aside_toggle toggle" title='{{ T "docs_menu" }}' role="button">{{ T "docs_menu" }} {{ partial "sprite" (dict "icon" "harmburger") }}</label>
   </div>
   {{- template "tree" (dict "page" . "section" .FirstSection)  }}

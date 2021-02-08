@@ -17,7 +17,5 @@ Please note that the features listed under each theme are independent of each ot
 
 {{< bibliography cited >}}
 
-{{< button "./compose/" "Compose Theme Docs" "mb-1" >}}
-
-{{< button "./clarity/" "Clarity Theme Docs" >}}
+{{< button "./ultra/" "Malapetaka Ultralembayung" "mb-1" >}}
 
