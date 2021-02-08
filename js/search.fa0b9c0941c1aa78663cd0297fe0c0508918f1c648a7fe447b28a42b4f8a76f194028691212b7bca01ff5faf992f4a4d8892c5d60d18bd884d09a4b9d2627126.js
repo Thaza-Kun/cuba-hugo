@@ -17,7 +17,7 @@ const idx = [
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/",
     "title": "Themes' Docs",
-    "body": `[These docs consists of two parts: Hugo Compose Themes docs Hugo Clarity Theme docs. Please note that the features listed under each theme are independent of each other. That is to say, some features may only be found in one theme and not in both. (Citation: Lessig,&#32; 2002) Lessig,&#32; L. &#32; (2002). &#32;. Lessig (2002) Lessig,&#32; L. &#32; (2002). &#32;. Compose Theme Docs Clarity Theme Docs]`.toLowerCase(),
+    "body": `[These docs consists of two parts: Hugo Compose Themes docs Hugo Clarity Theme docs. Please note that the features listed under each theme are independent of each other. That is to say, some features may only be found in one theme and not in both. (Citation: Lessig,&#32; 2002) Lessig,&#32; L. &#32; (2002). &#32;. Lessig (2002) Lessig,&#32; L. &#32; (2002). &#32;. Malapetaka Ultralembayung]`.toLowerCase(),
   },
   {
     "link": "https://thaza-kun.github.io/cuba-hugo/buku/ultra/install-theme/",
